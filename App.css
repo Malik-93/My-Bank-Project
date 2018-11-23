@@ -1,0 +1,73 @@
+body{
+  background:gray;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background: violet;
+  font-size: 250%;
+  color: white;
+  /* padding: 0, 500px; */
+}
+.nav{
+  margin-left: 40%;
+}
+.butt{
+  margin-left: 35%;
+}
+.btn{
+  background: green;
+  border-radius: 20px;
+  color: aliceblue;
+}
+.btn2{
+  background: skyblue;
+  color: aliceblue;
+  border-radius: 20px;
+  margin: 5px;
+}
+.form {
+  background: white;
+  max-width: 980%;
+  max-height: 300%;
+  /* border-style: solid; */
+  border-radius: 10px;
+
+}
+
+.size{
+font-size: 25px;
+}
+.header h1{
+  margin: 0;
+}
+
+.contentArea{
+  max-width: 980px;
+  margin: 0 auto 40px;
+  overflow: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.leftPane{
+  float: left;     /* important to note */
+  width: 50%;
+  /* border-style: solid; */
+  /* border-radius: 5%; */
+}
+
+.rightPane{
+  float: right;        /* important to note */
+  width: 50%;
+  /* border-style: solid; */
+  /* border-radius: 5%; */
+
+}
+
+.leftPane, .rightPane{
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 3px double #666; */
+  /* min-height: 250px; */
+}
