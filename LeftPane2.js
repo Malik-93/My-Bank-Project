@@ -8,7 +8,7 @@ class LeftPane2 extends Component {
     return (
       <div className="leftPane">
       <form className="form">
-        <span className="Acc" style={{fontSize: "1.5em", marginLeft: "0%"}}>
+        <span className="Acc" style={{fontSize: "1.7em", marginLeft: "0%"}}>
           Accounts
           <span> 
             <span className="butt">
